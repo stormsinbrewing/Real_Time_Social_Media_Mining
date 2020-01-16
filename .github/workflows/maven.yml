@@ -1,0 +1,13 @@
+name: Java CI
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - name: GitHub Actions for Apache Maven
+      uses: actions/checkout@v1
+    - run: |
+        mvn clean install
+        mvn test
+        mvn site
