@@ -16,7 +16,13 @@
 
 [x] Create a HDFS cluster for MapReduce functionality and program Hadoop MapReduce in Java
 
-[x] Setup HDFS in MapReduce in Java and include Hadoop MapReduce JAR file
+[x] Setup Hadoop Core and create Job Tracker and Task Trackers for the project
+
+[x] Implement MapReduce in HDFS using Java to count the frequency of significant words in Data dictionary, in Twitter string
+
+[x] Configure Apache Maven with MapReduce codes and install Apache Hadoop Jar dependency
+
+[x] Configure MapReduce code in GitHub Actions for automation
 
 [x] Automate the Big Data pipeline till MapReduce using GitHub Actions
 
