@@ -66,4 +66,4 @@ Follow these contribution [guidelines](CONTRIBUTING.md).
 
 ## License
 
-We are using MIT [License](LICENSE). 
+MIT [License](LICENSE), copyrighted to Storms In Brewing (2019-2020) 
