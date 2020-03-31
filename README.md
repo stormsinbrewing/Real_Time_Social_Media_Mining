@@ -42,11 +42,11 @@
 
 6. MapReduce functionalities in Java
 
-  6.1) [Map Function](src/main/java/pkg/Map.java)
+* [Map Function](src/main/java/pkg/Map.java)
   
-  6.2) [Reduce Function](src/main/java/pkg/Reduce.java)
+* [Reduce Function](src/main/java/pkg/Reduce.java)
   
-  6.3) [Main Java Code](src/main/java/pkg/WordCountDriver.java)
+* [Main Java Code](src/main/java/pkg/WordCountDriver.java)
   
 7. [Sentimental Analysis in Python](src/sentimental_analysis)
 
