@@ -4,10 +4,10 @@ import csv
 import pandas as pd
 
 ''' Authenticating Twitter Access with Developer Account '''
-consumer_key = 'bIVfVMIgLtWaJAmrDqDEpRkwt'
-consumer_secret = 'cTzQQCUyxHU7hDCMXaRtKTHeqTxEqA6lAaGaE5nbvrOF930VTY'
-access_token = '1143353752792920065-S2JoUbphkswzmT5JP57WRalAaRR1mJ'
-access_token_secret = 'I0EyYYGoJ5vDpu3gVY2foePUGuCSUf9pbofGP9J5TFZ1d'
+consumer_key = 'bIVfVMt'
+consumer_secret = 'cTzE5nbvrOF930VTY'
+access_token = '114335zmT5JP57WRalAaRR1mJ'
+access_token_secret = 'IP9J5TFZ1d'
 
 ''' Main Crawler Code'''
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
