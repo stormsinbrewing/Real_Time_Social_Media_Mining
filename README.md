@@ -20,7 +20,7 @@
 
 [] Use Data Ingestion tools like Flume to send data from crawler to HDFS at real time
 
-[] WAP in Java to implement MapReduce from JSON file extracted from crawler to find the frequency of significant words - Textual Analysis
+[x] WAP in Java to implement MapReduce from JSON file extracted from crawler to find the frequency of significant words - Textual Analysis
 
 [] Data Classification - create a multi-class data dictionary for sentimental analysis - currently for words (in future, we might extend it for phrases and sentences for improved accuracy)
 
