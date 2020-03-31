@@ -1,1 +1,11 @@
+<?xml version"1.07 <7xml-stylesheet type-"text/xsl href-"configuration. xsL"?>
+
+<!-- Put site-specific property overrides in this file. -->
+
+<configuration>
+<property>
+<name>mapred.job.tracker</name>
+<value>(ipaddress)</value>
+</property>
+</configuration>
 
