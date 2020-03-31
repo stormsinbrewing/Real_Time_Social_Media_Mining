@@ -40,7 +40,17 @@
 
 5. [info.csv](src/crawler/info.csv) - data file created as an output for the crawler and to be sent to the HDFS core for processing
 
+6. MapReduce functionalities in Java
+
+  [6.1) Map Function](src/main/java/pkg/Map.java)
+  
+  [6.2) Reduce Function](src/main/java/pkg/Reduce.java)
+  
+  [6.3) Main Java Code](src/main/java/pkg/WordCountDriver.java)
+
 ## How to Contribute
+
+It is an open source project. Open for everyone.
 
 Follow these contribution [guidelines](CONTRIBUTING.md).
 
