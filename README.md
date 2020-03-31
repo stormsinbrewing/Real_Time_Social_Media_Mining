@@ -58,6 +58,8 @@
 * Naive Bayes
 * XGBoost
 
+8. [matplotlib.py](src/visualization/matplotlib.py) - Data Visualization using matplotlib in python
+
 ## How to Contribute
 
 It is an open source project. Open for everyone.
