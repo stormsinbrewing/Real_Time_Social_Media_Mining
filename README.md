@@ -24,9 +24,9 @@
 
 [] Data Classification - create a multi-class data dictionary for sentimental analysis - currently for words (in future, we might extend it for phrases and sentences for improved accuracy)
 
-[] Data Predicition - Using the KNN algorithm in Python to find the relation between tweets and their sentiments.
+[x] Data Predicition - Using the KNN algorithm in Python to find the relation between tweets and their sentiments.
 
-[] Data Visualization - Using the Python **matplotlib** library to implement visualization.
+[x] Data Visualization - Using the Python **matplotlib** library to implement visualization.
 
 ## Important Source files and dependencies
 
@@ -42,11 +42,21 @@
 
 6. MapReduce functionalities in Java
 
-  [6.1) Map Function](src/main/java/pkg/Map.java)
+  6.1) [Map Function](src/main/java/pkg/Map.java)
   
-  [6.2) Reduce Function](src/main/java/pkg/Reduce.java)
+  6.2) [Reduce Function](src/main/java/pkg/Reduce.java)
   
-  [6.3) Main Java Code](src/main/java/pkg/WordCountDriver.java)
+  6.3) [Main Java Code](src/main/java/pkg/WordCountDriver.java)
+  
+7. [Sentimental Analysis in Python](src/sentimental_analysis)
+
+* Convolutional Neural Networks
+* Decision Tree
+* SVM
+* Pre-Processing
+* Random Forests
+* Naive Bayes
+* XGBoost
 
 ## How to Contribute
 
