@@ -1,0 +1,10 @@
+<?xml version= 1.6 ?> <7 xml-stylesheet type=text/xsl href="configuration.xsl"?>
+
+<!-- Put site-specific property overrides in this file. -->
+
+<configuration> 
+<property>
+ <name>dfs.data.dir</name> 
+<value>/data</value>
+ </property>
+ </configuration>
