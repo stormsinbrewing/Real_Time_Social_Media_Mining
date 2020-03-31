@@ -12,7 +12,11 @@
 
 [] Create a User Interface
 
-[] Create a HDFS cluster for MapReduce functionality
+[x] Create a HDFS cluster for MapReduce functionality and program Hadoop MapReduce in Java
+
+[x] Setup HDFS in MapReduce in Java and include Hadoop MapReduce JAR file
+
+[x] Automate the Big Data pipeline till MapReduce using GitHub Actions
 
 [] Use Data Ingestion tools like Flume to send data from crawler to HDFS at real time
 
