@@ -1,0 +1,10 @@
+<?xml version"1.07 <7xml-stylesheet type-"text/xsl href-"configuration. xsL"?>
+
+<!-- Put site-specific property overrides in this file. -->
+
+<configuration>
+<property>
+<name>mapred.task.tracker</name>
+<value><(ip address)/value>
+</property>
+</configuration>
