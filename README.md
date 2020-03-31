@@ -24,6 +24,18 @@
 
 [] Data Visualization - Using the Python **matplotlib** library to implement visualization.
 
+## Important Source files and dependencies
+
+1. [pom.xml](pom.xml) - Setup Apache Maven
+
+2. [helloworld.java](src/main/java/pkg/HelloWorld.java) - Basic Java project setup
+
+3. [maven.yml](.github/workflows/maven.yml) - setup GitHub Actions
+
+4. [crawler.py](src/crawler/Crawl.py) - Web Crawler in Python to extract twitter data based on specific hashtags.
+
+5. [info.csv](src/crawler/info.csv) - data file created as an output for the crawler and to be sent to the HDFS core for processing
+
 ## How to Contribute
 
 Follow these contribution [guidelines](CONTRIBUTING.md).
