@@ -25,3 +25,5 @@ for tweet in tweepy.Cursor(api.search,q="#Covid",count=100,
                            since="2020-02-02").items():
     print (tweet.created_at, tweet.text)
     csvWriter.writerow([tweet.created_at, tweet.text.encode('utf-8')])
+
+csvFile.close()
