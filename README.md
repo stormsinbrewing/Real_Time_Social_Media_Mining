@@ -2,6 +2,8 @@
 
 ## Workflow 
 
+![Workflow](img/Workflow.png)
+
 [x] Setting up Apache Maven for Java project - User Interface and MapReduce functions
 
 [x] Setting up GitHub repository workflow
