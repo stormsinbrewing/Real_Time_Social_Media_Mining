@@ -68,6 +68,13 @@
 
 8. [matplotlib.py](src/visualization/matplotlib.py) - Data Visualization using matplotlib in python
 
+9. Hadoop Setup
+
+* [Hadoop Core Setup](hdfs_setup/core-site.xml)
+* [HDFS Setup](hdfs_setup/hdfs-site.xml)
+* [MapReduce in Task Tracker](hdfs_setup/TaskTracker_MapReduce.xml)
+* [MapReduce in Job Tracker](hdfs_setup/JobTracker_MapReduce.xml)
+
 ## How to Contribute
 
 It is an open source project. Open for everyone.
