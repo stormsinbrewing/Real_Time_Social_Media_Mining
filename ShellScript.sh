@@ -49,4 +49,9 @@ case "$ch" in
 
 esac
 
+# Visualization
+cd ..
+cd visualization
+python matplotlib.py
+
 
