@@ -12,8 +12,6 @@
 
 [x] Creating a web crawler in Python using Tweepy library to fetch data based on some parameter.
 
-[] Create a User Interface
-
 [x] Create a HDFS cluster for MapReduce functionality and program Hadoop MapReduce in Java
 
 [x] Setup Hadoop Core and create Job Tracker and Task Trackers for the project
@@ -25,8 +23,6 @@
 [x] Configure MapReduce code in GitHub Actions for automation
 
 [x] Automate the Big Data pipeline till MapReduce using GitHub Actions
-
-[] Use Data Ingestion tools like Flume to send data from crawler to HDFS at real time
 
 [x] WAP in Java to implement MapReduce from JSON file extracted from crawler to find the frequency of significant words - Textual Analysis
 
