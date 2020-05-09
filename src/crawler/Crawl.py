@@ -2,7 +2,6 @@
 import tweepy
 import csv
 import pandas as pd
-import re,string
 
 ''' Authenticating Twitter Access with Developer Account '''
 consumer_key = 'bIVfVMIgLtWaJAmrDqDEpRkwt'
@@ -21,15 +20,8 @@ csvFile = open('info.csv', 'a')
 #Use csv Writer
 csvWriter = csv.writer(csvFile)
 
-for tweet in tweepy.Cursor(api.search,q="#Covid",count=100,
+for tweet in tweepy.Cursor(api.search,q="#StatusNeo",count=100,
                            lang="en",
-                           since="2020-02-02", tweet_mode = 'extended').items():
-    print (tweet.created_at, tweet.full_text)
-
-''' Trimming all the @,# and links from the tweet '''
-    text = (' '.join(re.sub("(@[A-Za-z0-9]+)|([^0-9A-Za-z \t])|(\w+:\/\/\S+)"," ",tweet.full_text).split())).encode('UTF-8')
-    try:
-       csvWriter.writerow([tweet.created_at, text ])
-    except:
-       continue
-csvFile.close()
+                           since="2020-02-02").items():
+    print (tweet.created_at, tweet.text)
+    csvWriter.writerow([tweet.created_at, tweet.text.encode('utf-8')])
