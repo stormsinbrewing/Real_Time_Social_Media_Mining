@@ -20,7 +20,7 @@ csvFile = open('info.csv', 'a')
 #Use csv Writer
 csvWriter = csv.writer(csvFile)
 
-for tweet in tweepy.Cursor(api.search,q="#StatusNeo",count=100,
+for tweet in tweepy.Cursor(api.search,q="#Covid",count=100,
                            lang="en",
                            since="2020-02-02").items():
     print (tweet.created_at, tweet.text)
