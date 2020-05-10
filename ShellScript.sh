@@ -1,6 +1,6 @@
 # Install Python and configure python
-sudo apt install -y python3
-sudo apt install -y python-pip
+apt install -y python3
+apt install -y python-pip
 pip install tweepy
 pip install pandas
 
@@ -50,6 +50,7 @@ case "$ch" in
 esac
 
 # Visualization
+apt-get install python3-matplotlib
 cd ..
 cd visualization
 python matplotlib.py
