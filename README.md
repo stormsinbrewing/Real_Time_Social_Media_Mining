@@ -26,7 +26,7 @@
 
 [x] WAP in Java to implement MapReduce from JSON file extracted from crawler to find the frequency of significant words - Textual Analysis
 
-[] Data Classification - create a multi-class data dictionary for sentimental analysis - currently for words (in future, we might extend it for phrases and sentences for improved accuracy)
+[x] Data Classification - create a multi-class data dictionary for sentimental analysis - currently for words (in future, we might extend it for phrases and sentences for improved accuracy)
 
 [x] Data Predicition - Using the KNN algorithm in Python to find the relation between tweets and their sentiments.
 
