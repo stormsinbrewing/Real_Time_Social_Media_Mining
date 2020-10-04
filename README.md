@@ -4,33 +4,33 @@
 
 ![Workflow](img/Workflow.png)
 
-[x] Setting up Apache Maven for Java project - User Interface and MapReduce functions
+- [x] Setting up Apache Maven for Java project - User Interface and MapReduce functions
 
-[x] Setting up GitHub repository workflow
+- [x] Setting up GitHub repository workflow
 
-[x] Setting up GitHub Actions for automation
+- [x] Setting up GitHub Actions for automation
 
-[x] Creating a web crawler in Python using Tweepy library to fetch data based on some parameter.
+- [x] Creating a web crawler in Python using Tweepy library to fetch data based on some parameter.
 
-[x] Create a HDFS cluster for MapReduce functionality and program Hadoop MapReduce in Java
+- [x] Create a HDFS cluster for MapReduce functionality and program Hadoop MapReduce in Java
 
-[x] Setup Hadoop Core and create Job Tracker and Task Trackers for the project
+- [x] Setup Hadoop Core and create Job Tracker and Task Trackers for the project
 
-[x] Implement MapReduce in HDFS using Java to count the frequency of significant words in Data dictionary, in Twitter string
+- [x] Implement MapReduce in HDFS using Java to count the frequency of significant words in Data dictionary, in Twitter string
 
-[x] Configure Apache Maven with MapReduce codes and install Apache Hadoop Jar dependency
+- [x] Configure Apache Maven with MapReduce codes and install Apache Hadoop Jar dependency
 
-[x] Configure MapReduce code in GitHub Actions for automation
+- [x] Configure MapReduce code in GitHub Actions for automation
 
-[x] Automate the Big Data pipeline till MapReduce using GitHub Actions
+- [x] Automate the Big Data pipeline till MapReduce using GitHub Actions
 
-[x] WAP in Java to implement MapReduce from JSON file extracted from crawler to find the frequency of significant words - Textual Analysis
+- [x] WAP in Java to implement MapReduce from JSON file extracted from crawler to find the frequency of significant words - Textual Analysis
 
-[x] Data Classification - create a multi-class data dictionary for sentimental analysis - currently for words (in future, we might extend it for phrases and sentences for improved accuracy)
+- [x] Data Classification - create a multi-class data dictionary for sentimental analysis - currently for words (in future, we might extend it for phrases and sentences for improved accuracy)
 
-[x] Data Predicition - Using the KNN algorithm in Python to find the relation between tweets and their sentiments.
+- [x] Data Predicition - Using the KNN algorithm in Python to find the relation between tweets and their sentiments.
 
-[x] Data Visualization - Using the Python **matplotlib** library to implement visualization.
+- [x] Data Visualization - Using the Python **matplotlib** library to implement visualization.
 
 ## Important Source files and dependencies
 
