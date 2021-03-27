@@ -4,7 +4,7 @@ apt install -y python3-pip
 pip3 install tweepy
 pip3 install pandas
 
-# Install Java
+# Install Java 11
 apt install -y openjdk-11-jre-headless
 
 # Install Maven
